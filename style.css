@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 1920px;
+    height: 7514px;
+    border: 1px solid black;
+    margin: 0 auto;
+}
+.row{
+    width: 1700px;
+    margin: 0 auto;
+    position: relative;
+}
+header{
+    width: 1920px;
+    height: 1080px;
+    border: 1px solid red;
+   
+}
+header{
+    background-image: url("conference.jpg");
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+}
+.opacity{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.5;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.how-do-we-work{
+    width: 1920px;
+    height: 5354px;
+    border: 1px solid green;
+}
+.choose-what-you-like{
+    width: 1920px;
+    height: 1080px;
+    border: 1px solid red;
+}
+.globe{
+    margin-top: 50px;
+    position: relative;
+}
+.agency{
+    font-size: 41px;
+    display: inline;
+    color: white;
+    position: relative;
+    margin-left: 10px;
+    font-family: Roboto;
+}
+.roboto{
+    font-family: Roboto;
+}
+.header-list{
+    
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    position: inherit;
+    list-style: none;
+    align-items: flex-start;
+    justify-content: flex-end;
+    margin-top: -30px;
+    margin-right: 400px;
+    
+}
+.header-list li{
+    margin-left: 30px;
+}
+.header-list li a{
+    text-decoration: none;
+    color: white;
+    font-size: 27px;
+}
+.button{
+    background-color: #7000FF;
+    width: 140px;
+    height: 50px;
+    color: white;
+    border-radius: 25px;
+    line-height: 50px;
+    display: block;
+    text-align: center;
+    float: left;
+    margin-left: 1500px;
+    margin-top: -30px;
+  
+    
+    
+}
+.monstr{
+    font-family: Montserrat;
+}
+.heading{
+    color: white;
+    font-size: 80px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 170px;
+}
+.sometext{
+    color: white;
+    text-align: center;
+    margin-left: 400px;
+    margin-top: 40px;
+    font-size: 19px;
+    width: 790px;
+    opacity: 0.7;
+
+}
+.button1{
+    width: 296px;
+    height: 84px;
+    border-radius: 42px;
+    margin-left: 0px;
+    font-size: 25px;
+    margin-left: 500px;
+    margin-top: 100px;
+    
+}
+.button-text{
+    line-height: 80px;
+}
+.bg-white{
+    background-color: inherit;
+    border: 1px solid white;
+    margin-left: 100px;
+    background-image: url("vector.png"), url("vector2.png");
+    background-repeat: no-repeat;
+    background-size: 45px 45px,20px 20px;
+    position: relative;
+    background-position: 30px 20px, 43px 32px;
+
+
+}
+.button-text1{
+    margin-left: 50px;
+   
+}
