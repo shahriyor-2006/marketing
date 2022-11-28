@@ -336,6 +336,33 @@ ul li a:hover{
 
 
 }
+.under-border{
+    width: 300px;
+    border: 1px solid #7000FF;
+    margin-left: 670px;
+    margin-top: 50px;
+}
+.under-border1{
+    width: 50px;
+    border: 1px solid #7000FF;
+    margin-left: -65px;
+    margin-top: 43px;
+    
+}
+.button2{
+    display: none;
+}
+.container:hover .button2{
+    display: block;
+}
+.button2{
+    transition: all 1s;
+}
+ul li .home{
+    
+}
+
+
 
 
 
