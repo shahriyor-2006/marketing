@@ -4,7 +4,7 @@
 }
 .main{
     width: 1920px;
-    height: 7514px;
+    height: 4100px;
     border: 1px solid black;
     margin: 0 auto;
 }
@@ -37,7 +37,7 @@ header{
 
 .how-do-we-work{
     width: 1920px;
-    height: 5354px;
+    height: 1950px;
     border: 1px solid green;
 }
 .choose-what-you-like{
@@ -48,6 +48,7 @@ header{
 .globe{
     margin-top: 50px;
     position: relative;
+    transition: all 0.4s;
 }
 .agency{
     font-size: 41px;
@@ -93,6 +94,7 @@ header{
     float: left;
     margin-left: 1500px;
     margin-top: -30px;
+    transition: all 0.8s;
   
     
     
@@ -146,3 +148,195 @@ header{
     margin-left: 50px;
    
 }
+
+/* how do we work */
+.heading2{
+    font-size: 74px;
+    text-align: center;
+    margin-top: 100px;
+    text-transform: capitalize;
+    font-family: "Montserrat";
+}
+.container{
+    width: 497px;
+    height: 525px;
+    /* border: 1px solid black; */
+    border-radius: 30px;
+    margin-top: 130px;
+    transition: all 0.5s;
+}
+.circle{
+    width: 120px;
+    height: 120px;
+    background-color: #7000FF;
+    border-radius: 120px;
+    margin: 30px;
+    
+}
+.circle img{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.circle2 img{
+    margin-left: 20px;
+    margin-top: 20px;
+   
+
+}
+.circle3 img{
+    margin-left: 30px;
+    margin-top: 30px;
+   
+
+}
+.subheading{
+    font-size: 53px;
+    font-weight: 600;
+    text-align: center;
+
+}
+.subtext{
+    
+    font-size: 14px;
+    width: 380px;
+    margin-left: 50px;
+    margin-top: 30px;
+    font-weight: 400;
+}
+.section{
+    display: flex;
+    justify-content: space-between;
+}
+.pc{
+    margin-top: 100px;
+    float: left;
+}
+.business-care{
+    float: left;
+}
+.heading3{
+    font-size: 47px;
+    font-weight: 600;
+    margin-top: 100px;
+    text-transform: capitalize;
+    text-align: center;
+    font-family: "Montserrat";
+
+}
+.subtext2{
+    font-size: 25px;
+    padding-left: 80px;
+    width: 750px;
+    margin-bottom: 90px;
+    line-height: 40px;
+}
+.scheme{
+    margin-left: 30px;
+}
+.opacity2{
+    width: 1920px;
+    height: 1080px;
+    background-color: black;
+    opacity: 0.4;
+    position: absolute;
+   
+    
+    
+}
+.choose-what-you-like{
+    background-image: url("lesson.png");
+    background-repeat: no-repeat;
+   
+
+}
+.heading4{
+    text-align: center;
+    font-size: 55px;
+    color: white;
+    font-weight: 500;
+    margin-top: 100px;
+    position: relative;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+.heading5{
+    margin-top: 0px;
+    display: inline-block;
+    margin-left: 780px;
+}
+.heading6{
+    display: inline-block;
+    margin-left: 30px;
+    color: #7000FF;
+    text-align: center;
+}
+.container3{
+    border: 5px solid #7000FF;
+    color: white;
+
+}
+.subtext{
+    line-height: 30px;
+}
+.button2{
+   margin-top: 10px;
+   margin-left: 130px;
+   width: 175px;
+   height: 55px;
+   border-radius: 32px;
+   font-size: 20px;
+   padding-top: 12px;
+}
+.growth{
+    background-image: url("growth.png");
+    background-repeat: no-repeat;
+    background-color: inherit;
+    background-position: 10px;
+    
+}
+.shopping{
+    background-color: inherit;
+    background-image: url("shopping.png");
+    background-repeat: no-repeat;
+    background-position: 10px;;
+}
+.container:hover{
+    background-color: #7000FF;
+    color: white;
+   
+}
+.container:hover .button2{
+    background-color: white;
+    color: #7000FF;
+   
+}
+.lamp{
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-bottom: 60px;
+
+}
+.button:hover{
+    
+    transform: translate(20px, 0px);
+}
+.container:hover{
+    transform: scale(1.1);
+}
+ul li a:hover{
+    color: #7000FF;
+}
+.globe:hover{
+    transform: translate(10px);
+
+
+}
+.agency:hover{
+    transform: translate(10px);
+
+
+}
+
+
+
+
